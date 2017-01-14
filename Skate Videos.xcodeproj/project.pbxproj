@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65206F141E255F5D00C0D14F /* TH9005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65206F131E255F5D00C0D14F /* TH9005.jpg */; };
+		65206F201E2566B600C0D14F /* posca_mad_thrasherz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65206F1F1E2566B600C0D14F /* posca_mad_thrasherz.ttf */; };
+		65206F221E25686B00C0D14F /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65206F211E25686B00C0D14F /* VideoVC.swift */; };
+		657B68E81E25C71C0068A1AF /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657B68E71E25C71C0068A1AF /* VideoCell.swift */; };
+		65B6FD551E2709FF0086EA0E /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6FD541E2709FF0086EA0E /* VideoModel.swift */; };
 		65BAD20E1E242C390037A3F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BAD20D1E242C390037A3F1 /* AppDelegate.swift */; };
-		65BAD2101E242C390037A3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BAD20F1E242C390037A3F1 /* ViewController.swift */; };
+		65BAD2101E242C390037A3F1 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BAD20F1E242C390037A3F1 /* MainVC.swift */; };
 		65BAD2131E242C390037A3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BAD2111E242C390037A3F1 /* Main.storyboard */; };
-		65BAD2151E242C390037A3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65BAD2141E242C390037A3F1 /* Assets.xcassets */; };
 		65BAD2181E242C390037A3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BAD2161E242C390037A3F1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65206F131E255F5D00C0D14F /* TH9005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TH9005.jpg; sourceTree = "<group>"; };
+		65206F1F1E2566B600C0D14F /* posca_mad_thrasherz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = posca_mad_thrasherz.ttf; sourceTree = "<group>"; };
+		65206F211E25686B00C0D14F /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		657B68E71E25C71C0068A1AF /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		65B6FD541E2709FF0086EA0E /* VideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		65BAD20A1E242C390037A3F1 /* Skate Videos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skate Videos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BAD20D1E242C390037A3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65BAD20F1E242C390037A3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65BAD20F1E242C390037A3F1 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		65BAD2121E242C390037A3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		65BAD2141E242C390037A3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65BAD2171E242C390037A3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65BAD2191E242C390037A3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,10 +43,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65206F161E25662700C0D14F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				65206F131E255F5D00C0D14F /* TH9005.jpg */,
+			);
+			name = images;
+			path = "Skate Videos";
+			sourceTree = "<group>";
+		};
+		65206F1E1E25666B00C0D14F /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				65206F1F1E2566B600C0D14F /* posca_mad_thrasherz.ttf */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
 		65BAD2011E242C390037A3F1 = {
 			isa = PBXGroup;
 			children = (
 				65BAD20C1E242C390037A3F1 /* Skate Videos */,
+				65206F161E25662700C0D14F /* images */,
 				65BAD20B1E242C390037A3F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +80,41 @@
 		65BAD20C1E242C390037A3F1 /* Skate Videos */ = {
 			isa = PBXGroup;
 			children = (
+				65206F1E1E25666B00C0D14F /* Files */,
+				65BAD2211E242D430037A3F1 /* Model */,
+				65BAD2221E242D4E0037A3F1 /* View */,
+				65BAD21F1E242D2E0037A3F1 /* Controller */,
 				65BAD20D1E242C390037A3F1 /* AppDelegate.swift */,
-				65BAD20F1E242C390037A3F1 /* ViewController.swift */,
 				65BAD2111E242C390037A3F1 /* Main.storyboard */,
-				65BAD2141E242C390037A3F1 /* Assets.xcassets */,
 				65BAD2161E242C390037A3F1 /* LaunchScreen.storyboard */,
 				65BAD2191E242C390037A3F1 /* Info.plist */,
 			);
 			path = "Skate Videos";
+			sourceTree = "<group>";
+		};
+		65BAD21F1E242D2E0037A3F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65BAD20F1E242C390037A3F1 /* MainVC.swift */,
+				65206F211E25686B00C0D14F /* VideoVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		65BAD2211E242D430037A3F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65B6FD541E2709FF0086EA0E /* VideoModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		65BAD2221E242D4E0037A3F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				657B68E71E25C71C0068A1AF /* VideoCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +177,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65206F201E2566B600C0D14F /* posca_mad_thrasherz.ttf in Resources */,
 				65BAD2181E242C390037A3F1 /* LaunchScreen.storyboard in Resources */,
-				65BAD2151E242C390037A3F1 /* Assets.xcassets in Resources */,
+				65206F141E255F5D00C0D14F /* TH9005.jpg in Resources */,
 				65BAD2131E242C390037A3F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +191,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65BAD2101E242C390037A3F1 /* ViewController.swift in Sources */,
+				65206F221E25686B00C0D14F /* VideoVC.swift in Sources */,
+				657B68E81E25C71C0068A1AF /* VideoCell.swift in Sources */,
+				65BAD2101E242C390037A3F1 /* MainVC.swift in Sources */,
+				65B6FD551E2709FF0086EA0E /* VideoModel.swift in Sources */,
 				65BAD20E1E242C390037A3F1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +359,7 @@
 				65BAD21E1E242C390037A3F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
