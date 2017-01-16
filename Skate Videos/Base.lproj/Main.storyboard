@@ -142,7 +142,7 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="XCL-Wu-nap" id="FQ8-Mx-qQe"/>
-                        <segue destination="3ji-wk-YVM" kind="showDetail" identifier="VideoVC" id="dHV-py-cdy"/>
+                        <segue destination="3ji-wk-YVM" kind="showDetail" identifier="VideoVC" id="fo3-41-Sse"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -190,8 +190,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="titleLbl" destination="r6I-OD-OFI" id="NAp-bL-9nc"/>
-                        <outlet property="webView" destination="gpc-c2-H9M" id="3O6-mZ-r40"/>
+                        <outlet property="titleLbl" destination="r6I-OD-OFI" id="3JC-zX-q7T"/>
+                        <outlet property="webView" destination="gpc-c2-H9M" id="B3L-SL-sUY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="247-yd-Ear" userLabel="First Responder" sceneMemberID="firstResponder"/>

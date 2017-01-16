@@ -30,7 +30,7 @@ class VideoModel {
     
     init(imageURL: String, videoURL: String, videoTitle: String) {
         _imageURL = imageURL
-        _videoURL = videoTitle
+        _videoURL = videoURL
         _videoTitle = videoTitle
         
     }

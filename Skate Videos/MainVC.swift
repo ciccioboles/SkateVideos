@@ -25,8 +25,10 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         let vid4 = VideoModel(imageURL: "https://i.ytimg.com/vi/z7xZksdPHQ0/hqdefault.jpg", videoURL: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SweF_nDX_Wk\" frameborder=\"0\" allowfullscreen></iframe>", videoTitle: "Nyjah Huston OMG Part")
         
-        let vid5 = VideoModel(imageURL: "http://www.unclejohnsweb.com/joweb/webimages/z190.jpg", videoURL: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SweF_nDX_Wk\" frameborder=\"0\" allowfullscreen></iframe>", videoTitle: "Powell Skate Zone")
+        let vid5 = VideoModel(imageURL: "http://www.unclejohnsweb.com/joweb/webimages/z190.jpg", videoURL: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/u4xQQP4xA18\" frameborder=\"0\" allowfullscreen></iframe>", videoTitle: "Powell Skate Zone")
         
+        
+
         
         
         vidArray.append(vid1)
@@ -34,6 +36,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         vidArray.append(vid3)
         vidArray.append(vid4)
         vidArray.append(vid5)
+
         
         tableView.delegate = self
         tableView.dataSource = self
@@ -59,6 +62,8 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         }
     }
     
+
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return vidArray.count
     }
@@ -68,6 +73,9 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         performSegue(withIdentifier: "VideoVC", sender: vidModel)
     }
+  
+    
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? VideoVC {
